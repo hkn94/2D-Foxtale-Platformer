@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Platform
+  - Boss
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Player
+  - Ground
+  - Background
+  - Platform
+  - Climbing
+  - Enemy
+  - Stompbox
+  - Bullet
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 1483739783
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Grass
+    uniqueID: 2014862121
+    locked: 0
+  - name: Spikes
+    uniqueID: 1826156435
+    locked: 0
+  - name: Collectibles
+    uniqueID: 1027857397
+    locked: 0
+  - name: Level_End
+    uniqueID: 2765133769
+    locked: 0
+  - name: Ground
+    uniqueID: 2715526215
+    locked: 0
+  - name: Enemies
+    uniqueID: 1661759871
+    locked: 0
+  - name: Player
+    uniqueID: 50509457
+    locked: 0
+  - name: Forground
+    uniqueID: 636680297
+    locked: 0
