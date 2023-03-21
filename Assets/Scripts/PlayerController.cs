@@ -17,9 +17,9 @@ public class PlayerController : MonoBehaviour
 
     public Transform attackPoint;
     public float attackRange = 0.5f;
-    public GameObject deathEffect;
-    public GameObject collectible;
-    [Range(0, 100)] public float changeToDrop;
+    // public GameObject deathEffect;
+    // public GameObject collectible;
+    // [Range(0, 100)] public float changeToDrop;
 
     public LayerMask GroundLayer, EnemyLayer;
     public BoxCollider2D ceilingCollider;
