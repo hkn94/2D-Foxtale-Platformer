@@ -41,8 +41,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5341326803511806086}
   - component: {fileID: 5341326803511806072}
-  - component: {fileID: 5341326803511806087}
-  - component: {fileID: 5341326803511806073}
   - component: {fileID: 5341326803511806074}
   m_Layer: 0
   m_Name: Enemy Eagle
@@ -89,39 +87,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &5341326803511806087
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5341326803511806085}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a95ce3d60db5f94a9b3ade77761c0dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  points:
-  - {fileID: 5341326803874975528}
-  - {fileID: 5341326802981242055}
-  moveSpeed: 5
-  spriteRenderer: {fileID: 5341326804848473314}
-  distanceToAttackPlayer: 7
-  chaseSpeed: 10
-  waitAfterAttack: 2
---- !u!114 &5341326803511806073
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5341326803511806085}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a98ab565b11fb5488bd02e2c3583288, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageDealt: 1
 --- !u!70 &5341326803511806074
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
